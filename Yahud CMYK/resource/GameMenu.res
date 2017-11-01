@@ -1,20 +1,5 @@
 "GameMenu" [$WIN32]
 {
-	"CasualButton"
-	{
-		"label" "CASUAL" 
-		"command" "play_casual"
-	}
-	"CompetitiveButton"
-	{
-		"label" "COMP" 
-		"command" "play_Competitive"
-	}
-	"MvMButton"
-	{
-		"label" "MVM" 
-		"command" "play_mvm"
-	}
 	"ServerBrowserButton"
 	{
 		"label" "SERVERS" 
@@ -27,8 +12,9 @@
 	}
 	"ReplaysButton"
 	{
-		"label" "REPLAYS"
+		"label" "d"
 		"command" "engine replay_reloadbrowser"
+		"tooltip" 	"REPLAYS"
 	}
 	"DemoUIButton"
 	{
@@ -44,15 +30,13 @@
 	}
 	"CreateServerButton"
 	{
-		"label" 	"Z"
+		"label" 	"+"
 		"command" 	"OpenCreateMultiplayerGameDialog"
-        "tooltip" 	"CREATE SERVER"
 	}
 	"ConsoleButton"
 	{
-		"label"		"l"
+		"label"		"CONSOLE"
 		"command" 	"engine con_enable 1;toggleconsole"
-		"tooltip" 	"TOGGLE CONSOLE"
 	}
 	"HomeServer"
 	{

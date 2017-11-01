@@ -1029,7 +1029,37 @@ Scheme
 				"antialias" "1"
 			}
 		}
-        "HeavyCaps18"
+		"HeavyCaps12"
+		{
+			"1"
+			{
+				"name"		"HeavyCaps"
+				"tall"		"12"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"HeavyCaps14"
+		{
+			"1"
+			{
+				"name"		"HeavyCaps"
+				"tall"		"14"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"HeavyCaps16"
+		{
+			"1"
+			{
+				"name"		"HeavyCaps"
+				"tall"		"16"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"HeavyCaps18"
 		{
 			"1"
 			{
