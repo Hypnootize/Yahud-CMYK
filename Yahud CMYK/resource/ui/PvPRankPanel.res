@@ -191,6 +191,7 @@
 			"ypos"			"cs-0.5"
 			"tall"			"35"
 			"wide"			"505"
+			"border"		"MainMenuBGBorder"
 		}
 
 		"NameLabel"
@@ -212,7 +213,9 @@
 
 			if_mini
 			{
+				"wide"		"f0"
 				"visible"	"0"
+				"font"		"HudFontSmallishBold"
 			}
 		}
 
@@ -237,6 +240,7 @@
 			{
 				"xpos"	"67"
 				"ypos"	"4"
+				"font"	"HudFontSmallestBold"
 			}
 		}
 
