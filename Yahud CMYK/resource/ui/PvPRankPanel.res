@@ -198,14 +198,14 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"NameLabel"
-			"xpos"			"65"
-			"ypos"			"5"
-			"wide"			"195"
+			"xpos"			"1"
+			"ypos"			"0"
+			"wide"			"205"
 			"zpos"			"100"
-			"tall"			"20"
+			"tall"			"24"
 			"visible"		"1"
 			"enabled"		"1"
-			"font"			"HeavyCaps16"
+			"font"			"HeavyCaps26"
 			"fgcolor_override"	"TanLight"
 			"textAlignment"	"north-west"
 			"labelText"		"%name%"
@@ -213,9 +213,14 @@
 
 			if_mini
 			{
+				"xpos"			"65"
+				"ypos"			"5"
 				"wide"		"f0"
+				"tall"			"20"
 				"visible"	"0"
 				"font"		"HudFontSmallishBold"
+				"fgcolor_override"	"TanLight"
+				"textAlignment"	"north-west"
 			}
 		}
 
@@ -223,14 +228,14 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"LevelLabel"
-			"xpos"			"65"
-			"ypos"			"23"
-			"wide"			"f0"
+			"xpos"			"1"
+			"ypos"			"25"
+			"wide"			"205"
 			"zpos"			"100"
-			"tall"			"20"
+			"tall"			"24"
 			"visible"		"1"
 			"enabled"		"1"
-			"font"			"HeavyCaps12"
+			"font"			"HeavyCaps26"
 			"fgcolor_override"	"TanLight"
 			"textAlignment"	"north-west"
 			"labelText"		"%level%"
@@ -240,7 +245,11 @@
 			{
 				"xpos"	"67"
 				"ypos"	"4"
+				"wide"			"f0"
+				"tall"			"20"
 				"font"	"HudFontSmallestBold"
+				"fgcolor_override"	"TanLight"
+				"textAlignment"	"north-west"
 			}
 		}
 
@@ -248,9 +257,9 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"StatsContainer"
-			"xpos"			"rs1-5"
+			"xpos"			"0"
 			"ypos"			"0"
-			"wide"			"f70"
+			"wide"			"205"
 			"tall"			"f0"
 			"proportionaltoparent"	"1"
 
@@ -281,7 +290,7 @@
 					"ypos"			"rs1"
 					"zpos"			"0"
 					"wide"			"100"
-					"tall"			"20"
+					"tall"			"0"
 					"visible"		"1"
 					"enabled"		"1"
 					"font"			"ItemFontAttribSmall"
@@ -289,6 +298,11 @@
 					"textAlignment"	"south-west"
 					"labelText"		"%current_xp%"
 					"proportionaltoparent"	"1"
+					
+					if_mini
+					{
+						"tall"	"20"
+					}
 				}
 
 				"NextLevelXPLabel"
@@ -299,7 +313,7 @@
 					"ypos"			"rs1"
 					"zpos"			"0"
 					"wide"			"100"
-					"tall"			"20"
+					"tall"			"0"
 					"visible"		"1"
 					"enabled"		"1"
 					"font"			"ItemFontAttribSmall"
@@ -307,6 +321,11 @@
 					"textAlignment"	"south-east"
 					"labelText"		"%next_level_xp%"
 					"proportionaltoparent"	"1"
+					
+					if_mini
+					{
+						"tall"	"20"
+					}
 				}
 
 				"ProgressBarsContainer"
@@ -333,6 +352,11 @@
 
 						"fgcolor_override"	"20 20 20 180"
 						"bgcolor_override"	"0 0 0 0"
+						
+						if_mini
+						{
+							"wide"	"f0"
+						}
 					}
 
 					"ContinuousProgressBar"
@@ -360,6 +384,11 @@
 						"zpos"			"5"
 						"proportionaltoparent"	"1"
 						"border"		"InnerShadowBorderThin"
+						
+						if_mini
+						{
+							"wide"	"f0"
+						}
 					}
 				}
 			}

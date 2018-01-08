@@ -1029,32 +1029,12 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"HeavyCaps12"
+		"HeavyCaps26"
 		{
 			"1"
 			{
 				"name"		"HeavyCaps"
-				"tall"		"12"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-		"HeavyCaps14"
-		{
-			"1"
-			{
-				"name"		"HeavyCaps"
-				"tall"		"14"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-		"HeavyCaps16"
-		{
-			"1"
-			{
-				"name"		"HeavyCaps"
-				"tall"		"16"
+				"tall"		"26"
 				"additive"	"0"
 				"antialias" "1"
 			}

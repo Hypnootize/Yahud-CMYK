@@ -4,17 +4,16 @@
 	{
 		"label" "SERVERS" 
 		"command" "OpenServerBrowser"
-	} 
-	"SteamWorkshopButton"
+	}
+	"CharacterSetupButton"
 	{
-		"label" "#MMenu_SteamWorkshop"
-		"command" "engine OpenSteamWorkshopDialog"
+		"label" "ITEMS"
+		"command" "engine open_charinfo"
 	}
 	"ReplaysButton"
 	{
-		"label" "d"
+		"label" "REPLAYS"
 		"command" "engine replay_reloadbrowser"
-		"tooltip" 	"REPLAYS"
 	}
 	"DemoUIButton"
 	{
@@ -49,11 +48,6 @@
 		"label" "QUIT"
 		"command" "engine replay_confirmquit"
 		"OnlyAtMenu" "1"
-	}
-	"CharacterSetupButton"
-	{
-		"label" "ITEMS"
-		"command" "engine open_charinfo"
 	}
 	"SettingsButton"
 	{
