@@ -1786,7 +1786,7 @@
     ItemQuickSwitchPanel
 	{
 		"fieldName"				"ItemQuickSwitchPanel"
-		"visible"				"1"
+		"visible"				"0"
 		"enabled"				"1"
 		"xpos"			"c-125"
 		"ypos"			"0"
