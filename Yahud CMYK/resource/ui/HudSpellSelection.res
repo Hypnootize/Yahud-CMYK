@@ -16,7 +16,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"SpellIcon"
 		"xpos"			"0"
-		"ypos"			"0"
+		"ypos"			"2"
 		"zpos"			"13"
 		"wide"			"20"
 		"tall"			"20"
@@ -46,7 +46,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CountText"
-		"font"			"HudFontMediumSmallBold"
+		"font"			"NoveMedium24"
 		"labelText"		"%counttext%"
 		"textAlignment" "west"
 		"xpos"			"27"

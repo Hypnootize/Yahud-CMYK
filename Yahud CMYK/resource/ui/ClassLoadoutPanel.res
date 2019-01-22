@@ -1,3 +1,5 @@
+#base "../../resource/tools/ReloadSchemeButton.res"
+
 "Resource/UI/FullLoadoutPanel.res"
 {
 	"class_loadout_panel"
@@ -14,9 +16,9 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"46 43 42 255"
-		"infocus_bgcolor_override" "46 43 42 255"
-		"outoffocus_bgcolor_override" "46 43 42 255"
+		"bgcolor_override"	"GrayBG"
+		"infocus_bgcolor_override" "GrayBG"
+		"outoffocus_bgcolor_override" "GrayBG"
 		
 		"item_xpos_offcenter_a"	"-310"
 		"item_xpos_offcenter_b"	"165"
@@ -194,10 +196,10 @@
 		"visible"		"1"
 		"enabled"		"1"
 		
-		"render_texture"	"0"
-		"fov"			"30"
-		"allow_rot"		"1"
-				
+		"render_texture" "0"
+		"fov"			 "30"
+		"allow_manip"	 "1"
+		
 		"model"
 		{
 			"force_pos"	"1"

@@ -84,7 +84,7 @@
 		"ypos"			"r40"
 		"zpos"			"1"		
 		"wide"			"50"
-		"tall"			"19"
+		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
