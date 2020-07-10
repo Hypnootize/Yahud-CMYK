@@ -42,7 +42,7 @@
 
 	"ObjectiveStatusTimePanel"
 	{
-		"ControlName"			"EditablePanel"
+		"ControlName"		"EditablePanel"
 		"fieldName"			"ObjectiveStatusTimePanel"
 		"xpos"				"0"
 		"ypos"				"0"	
@@ -54,15 +54,15 @@
 		
 		if_comp
 		{
-			"ypos"			"29"
+			"ypos"			"35"
 		}
 
 		"TimePanelValue"
 		{
-			"ControlName"		"CExLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"MediumNumbers14"
-			"fgcolor"		"White"
+			"font"			"MediumNumbers20"
+			"fgcolor"		"Time"
 			"xpos"			"c-181"
 			"ypos"			"-1"
 			"zpos"			"1"
@@ -70,15 +70,21 @@
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
-			"textAlignment"		"east"
+			"textAlignment"	"east"
+			
+			if_comp
+			{
+				"xpos"		"c-75"
+				"font"		"MediumNumbers14"
+			}
 		}
         
         "TimePanelLabel"
 		{
-			"ControlName"		"CExLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"TimePanelLabel"
-			"font"			"NoveMedium14"
-			"fgcolor"	    "White"
+			"font"			"NoveMedium20"
+			"fgcolor"	    "Time"
 			"labelText"		"CAPS"
 			"textAlignment"	"east"
 			"xpos"			"c-118"
@@ -90,6 +96,13 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
+			
+			if_comp
+			{
+				"xpos"			"c25"
+				"font"			"NoveMedium14"
+				"textAlignment"	"west"
+			}
 		}
 	}
 
@@ -97,10 +110,10 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"StopWatchScoreToBeat"
-		"font"			"MediumNumbers14"
+		"font"			"MediumNumbers20"
 		"labelText"		"%scoretobeat%"
 		"textAlignment"		"east"
-		"fgcolor"		"White"
+		"fgcolor"		"Time"
         "textinsetx"	"0"
 		"use_proportional_insets" "1"
 		"xpos"			"c-128"
@@ -115,26 +128,31 @@
 		
 		if_comp
 		{
-			"ypos"			"29"
+			"xpos"					"cs-0.5"
+			"ypos"					"34"
+			"textAlignment"			"center"
+			"font"					"MediumNumbers14"
+			"proportionaltoparent"	"1"
 		}
 	}
+	
 	"StopWatchPointsLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		    "StopWatchPointsLabel"
-		"font"			    "Regular14"
+		"font"			    "Regular16"
 		"labelText"		    ""
 		"textAlignment"		"center"
-		"fgcolor"		    "White"
+		"fgcolor"		    "Time"
 		"xpos"			    "c-104"
 		"ypos"			    "20"
 		"zpos"			    "3"
 		"wide"			    "60"
 		"tall"			    "20"
 		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"1"
+		"pinCorner"			"0"
+		"visible"			"0"
+		"enabled"			"1"
 		
 		if_comp
 		{
@@ -159,11 +177,6 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"wrap"			"0"
-		
-		if_comp
-		{
-			"ypos"			"50"
-		}
 	}
 
 	"HudStopWatchDescriptionBG"
