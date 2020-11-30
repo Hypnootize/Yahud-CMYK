@@ -7939,7 +7939,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanDark"
+					"color" "200 200 200 255"
 					"offset" "0 1"
 				}
 			}
@@ -7948,7 +7948,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanDark"
+					"color" "200 200 200 255"
 					"offset" "1 0"
 				}
 			}
@@ -7957,7 +7957,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanDark"
+					"color" "200 200 200 255"
 					"offset" "0 0"
 				}
 			}
@@ -7966,7 +7966,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanDark"
+					"color" "200 200 200 255"
 					"offset" "0 0"
 				}
 			}
@@ -7980,7 +7980,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanDark"
+					"color" "200 200 200 255"
 					"offset" "1 0"
 				}
 			}
@@ -7993,7 +7993,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanDark"
+					"color" "200 200 200 255"
 					"offset" "0 1"
 				}
 			}
@@ -8002,7 +8002,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanDark"
+					"color" "200 200 200 255"
 					"offset" "1 0"
 				}
 			}
@@ -8011,7 +8011,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanDark"
+					"color" "200 200 200 255"
 					"offset" "0 0"
 				}
 			}
@@ -8020,7 +8020,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanDark"
+					"color" "200 200 200 255"
 					"offset" "0 0"
 				}
 			}
@@ -8509,80 +8509,75 @@ Scheme
 			}
 		}
 		"7" "resource/ocra.ttf"
-		"8" 
+		"10"
 		{
 			"font" "resource/fonts/symbol.ttf"
 			"name" "symbol"
 		}
-		"9" 
-		{
-			"font" "resource/fonts/FORMASGE.ttf"
-			"name" "FORMASGE"
-		}
-		"10" 
+		"11"
 		{
 			"font" "resource/fonts/Paula.ttf"
 			"name" "Paula"
 		}
-		"11" 
+		"12"
 		{
 			"font" "resource/fonts/AvenirLTStd-Black.ttf"
 			"name" "AvenirLTStd-Black"
 		}
-		"12" 
+		"13"
 		{
             "font" "resource/fonts/AvenirLTStd-Heavy.otf"
 			"name" "AvenirLTStd-Heavy"
 		}	
-		"13" 
+		"14"
 		{
 			"font" "resource/fonts/AvenirLTStd-Medium.otf"
 			"name" "AvenirLTStd-Medium"
 		}		
-		"14" 
+		"15"
 		{
             "font" "resource/fonts/AvenirLTStd-Book.otf"
 			"name" "AvenirLTStd-Book"
 		}
-		"15"
+		"16"
 		{
 			"font" "resource/fonts/Blocks.ttf"
 			"name" "Blocks"
 		}	
-		"16"
+		"17"
 		{
 			"font" "resource/fonts/Entypo.otf"
 			"name" "Entypo"
 		}
-        "17" 
+        "18"
 		{
 			"font" "resource/fonts/LightNumbers.ttf"
 			"name" "LightNumbers"
 		}
-		"18" 
+		"19"
 		{
 			"font" "resource/fonts/MediumNumbers.ttf"
 			"name" "MediumNumbers"
 		}
-		"19" 
+		"20"
 		{
 			"font" "resource/fonts/BoldNumbers.ttf"
-			"name" "BoldNumbers"    
+			"name" "BoldNumbers"
 		}
-        "20" 
+        "21"
 		{
 			"font" "resource/fonts/Novecentowide-Book.otf"
-			"name" "Novecentowide-Book"  
+			"name" "Novecentowide-Book"
 		}
-        "21" 
+        "22"
 		{
 			"font" "resource/fonts/NovecentoMedium.ttf"
-			"name" "NovecentoMedium"  
+			"name" "NovecentoMedium"
 		}
-        "22" 
+        "23"
 		{
 			"font" "resource/fonts/HeavyCaps.ttf"
-			"name" "HeavyCaps"  
+			"name" "HeavyCaps"
 		}
 	}
 }

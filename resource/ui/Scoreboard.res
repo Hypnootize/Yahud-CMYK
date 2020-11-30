@@ -568,13 +568,16 @@
 		"labelText"		"%mapname%"
 		"textAlignment" "center"
 		"xpos"			"c151"
-		"ypos"			"r25"
+		"ypos"			"r28"
 		"zpos"			"3"
 		"wide"			"71"
-		"tall"			"11"
+		"tall"			"25"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
+		"enabled"		"1"
+		"wrap"			"1"
+		"centerwrap"	"1"
 		"enabled"		"1"
 		"fgcolor"		"White"
 
@@ -588,6 +591,7 @@
 			"wide"			"200"
 			"tall"			"18"
 			"fgcolor"		"White"
+			"wrap"			"0"
 		}	
 	}
 	"HorizontalLine"
